@@ -10,7 +10,7 @@ body {
     Clears white space around the body and sets the background color to a dark grey.
   */
     margin: 0;
-    background-color: #45312b;
+    background-color:#ffd800 ;
 }
 
 a {
@@ -78,7 +78,7 @@ section#MainContent {
     The font-size is 80% of its parent element, which in this case comes down to 80% of the font
     the user has specified as the default font in the browser.
   */
-    color: black;
+    color: palevioletred;
     font-size: 0.8em;
     width: 600px;
     min-height: 508px;
@@ -105,7 +105,7 @@ footer {
     height: 40px;
     line-height: 40px;
     clear: both;
-    background-color: #808080;
+    background-color: #e48843;
   
 }
 

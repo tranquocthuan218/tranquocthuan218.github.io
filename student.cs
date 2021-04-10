@@ -13,7 +13,7 @@ namespace WpfApp1
          1. Định nghĩa trường Name: 
         private string Name;
 
-        // 2. Định nghĩa thuộc tính StudentName từ trường Name
+         2. Định nghĩa thuộc tính StudentName từ trường Name
         public string StudentName {
         
             get

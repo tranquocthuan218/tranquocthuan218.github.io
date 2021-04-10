@@ -5,17 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WpfApp2
+namespace WpfApp1
 {
 
     class Student
     {
-        // 1. Định nghĩa trường Name: 
+         1. Định nghĩa trường Name: 
         private string Name;
 
         // 2. Định nghĩa thuộc tính StudentName từ trường Name
-        public string StudentName
-        {
+        public string StudentName {
+        
             get
             {
                 return Name;
@@ -26,14 +26,14 @@ namespace WpfApp2
             }
         }
 
-        public Student()
+        public Student();
         {}
-        // 3. Định nghĩa phương thức khởi tạo Student(string stName)
+         3. Định nghĩa phương thức khởi tạo Student(string stName)
         public Student(string stName)
         {
             Name = stName;
         }
-        // 4. Định nghĩa phương thức Talk() giới thiệu tên của sinh viện thông qua MessageBox
+         4. Định nghĩa phương thức Talk() giới thiệu tên của sinh viện thông qua MessageBox
 
         public virtual void Talk()
         {
